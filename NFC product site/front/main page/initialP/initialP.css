@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(51, 49, 66);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgb(7, 4, 8), rgb(61, 58, 58), rgb(51, 49, 66));
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+}
+    header h1{
+        display: inline-block;
+        margin-left: 2.5vh;
+    }
+        header h1 a{
+            color: white;
+            text-decoration: none;
+        }
+ 
+        main{
+            background-color:rgb(51, 49, 66);
+            height: 85vh;
+            font-family: 'Montserrat', sans-serif;
+            padding: 0.5em;
+        }
+        main h1{
+            color: white;
+        }
+        main h2{
+
+            color: white;
+        }
+        main a{
+            text-decoration: none;
+        }
+        .config h2{
+            margin-top: 50vh;
+        }
+
+
+
+
+footer{
+    height: 15vh;
+}
+footer h6{
+    padding-top: 30px;
+    margin: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}

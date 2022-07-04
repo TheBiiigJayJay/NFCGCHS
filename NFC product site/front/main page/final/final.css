@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color:rgb(51, 49, 66);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+body input{
+    margin: 5px;
+}
+header{
+    background-image: linear-gradient(rgb(7, 4, 8), rgb(61, 58, 58), rgb(51, 49, 66));
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+}
+    header h1{
+        display: inline-block;
+        margin-left: 2.5vh;
+    }
+        header h1 a{
+            color: white;
+            text-decoration: none;
+        }
+
+.pic{
+    margin-top: 6vh;
+}
+
+.nameDesc{
+    margin-top: 1vh;
+}
+
+.inputBox{
+    margin-bottom: 2vh;
+}

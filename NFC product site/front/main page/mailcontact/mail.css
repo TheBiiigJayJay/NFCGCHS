@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(51, 49, 66);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgb(7, 4, 8), rgb(61, 58, 58), rgb(51, 49, 66));
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+}
+    header h1{
+        display: inline-block;
+        margin-left: 2.5vh;
+    }
+        header h1 a{
+            color: white;
+            text-decoration: none;
+        }
+ 
+
+    main{
+        background-color: antiquewhite;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .container{
+            background-image: linear-gradient(rgba(7, 4, 8, 0.555), rgb(61, 58, 58), rgb(51, 49, 66));
+            padding: 20px;
+            padding-bottom: 35px;
+            border-radius: 30px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .container h3{
+            color: white;
+            text-align: center;
+            
+        }
+        .details{
+            color: white;
+        }
+        .container input{
+            margin-bottom: 2em;
+            padding: 5px;
+            border-radius: 10px;
+            border-style: none;
+        }
+        .container a{
+            color: rgb(66, 221, 248);
+            text-decoration: none;
+        }
+        .container button{
+            padding: 0.5em;
+            padding-left: 1.3em;
+            padding-right: 1.3em;
+            border-radius: 15px;
+            border-style: none;
+            float: right;
+        }
+
+        .container textarea{
+            border-radius: 10px;
+        }
+
+
+
+
+
+
+
+
+
+    footer{
+        height: 15vh;
+    }
+    footer h6{
+        padding-top: 30px;
+        margin: 0px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
